@@ -3,10 +3,9 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Super Text Editor" Height="350" Width="525">
     <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="87*"/>
-            <ColumnDefinition Width="430*"/>
-        </Grid.ColumnDefinitions>
+        <TextBox Margin="0,22,0,37" TextWrapping="Wrap" FontFamily="Arial" Background="#FFCDCDF6"/>
+        <Button Content="new document" Margin="0,0,10,10" RenderTransformOrigin="-0.427,0.4" Height="20" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="123"/>
+
 
     </Grid>
 </Window>
